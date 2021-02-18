@@ -19,6 +19,10 @@
 ### 2. In your project:
 
 ```kotlin
+...
+import tr.com.emrememis.library.AskPermissions.ask
+import tr.com.emrememis.library.AskPermissions.check
+
 override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
