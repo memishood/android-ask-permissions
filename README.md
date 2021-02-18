@@ -31,9 +31,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
             if (check(this, Manifest.permission.CAMERA)) {
                 Log.d(TAG, "onCreate: permissions granted")
             } else {
-                Log.d(TAG, "onCreate: permissions not granted")
                 ask(this, Manifest.permission.CAMERA)
-                Log.d(TAG, "onCreate: permissions asked")
             }
         }
     }
